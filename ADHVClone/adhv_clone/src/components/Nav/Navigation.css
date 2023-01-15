@@ -1,0 +1,44 @@
+nav{
+    height: 14vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    font-size: 0.9rem;
+    background-color: transparent;
+}
+
+section{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.nav_left img{
+    width: 50px;
+}
+
+
+.links a{
+    color: #227681;
+    text-decoration: none;
+    margin-left: 2.4vw;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.links button{
+    background-color: #227681;
+    border: none;
+    padding: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 2.4vw;
+    
+    color:white;
+    font-weight: 600;
+}
